@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_us_2"
+    android:columnCount="2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.googlemapsemenara.ContactGarden" >
+
+    <ImageView
+        android:id="@+id/call_us_icon"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_above="@+id/send_mail_icon"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/call_us_icon" />
+
+    <ImageView
+        android:id="@+id/send_mail_icon"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignLeft="@+id/call_us_icon"
+        android:src="@drawable/send_mail_icon" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_alignLeft="@+id/send_mail_icon"
+        android:layout_alignTop="@+id/button5"
+        android:src="@drawable/facebook_icon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:src="@drawable/tripadvisor_icon" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button4"
+        android:layout_centerVertical="true"
+        android:onClick="goToFaceBook"
+        android:text="FaceBook" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignTop="@+id/send_mail_icon"
+        android:onClick="sendMail"
+        android:text="GardenApp@gmail.com"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignTop="@+id/call_us_icon"
+        android:onClick="callGarden"
+        android:text="04-8507061" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:onClick="goToTripAdvisor"
+        android:text="Trip Advisor" />
+
+</RelativeLayout>

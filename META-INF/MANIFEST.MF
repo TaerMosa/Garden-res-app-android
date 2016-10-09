@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GardenApp
+Bundle-SymbolicName: GardenApp
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: GardenApp.jar,
+ ta2er/Downloads/android-sdk/android-sdk-windows/platforms/android-10/android.jar
+Export-Package: RoutesGoogleMaps,
+ com.example.googlemapsemenara

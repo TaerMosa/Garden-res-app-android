@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackg"
+    tools:context="com.example.googlemapsemenara.MenueActivity" >
+
+            <ImageView
+                android:id="@+id/mainIM"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:onClick="showMainCourseMenue"
+                android:src="@drawable/maincous" />
+
+            <ImageView
+                android:id="@+id/drinksIM"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/mainIM"
+                android:layout_toRightOf="@+id/mainTVm"
+                android:onClick="showDrinkstMenue"
+                android:src="@drawable/drinks" />
+
+            <ImageView
+                android:id="@+id/firstIM"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/mainIM"
+                android:layout_alignLeft="@+id/mainIM"
+                android:onClick="showFirstCourseMenue"
+                android:src="@drawable/firstcous" />
+
+            <ImageView
+                android:id="@+id/desIM"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="17dp"
+                android:layout_toRightOf="@+id/mainTVm"
+                android:onClick="showDessertMenue"
+                android:src="@drawable/desert" />
+
+            <TextView
+                android:id="@+id/firstTVm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mainTVm"
+                android:layout_alignTop="@+id/firstIM"
+                android:layout_marginTop="14dp"
+                android:text="Fisrt Course Menu"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mainTVm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/mainIM"
+                android:layout_marginRight="14dp"
+                android:layout_toLeftOf="@+id/mainIM"
+                android:text="Main Course Menu"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/drinkTVm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/firstTVm"
+                android:layout_below="@+id/mainIM"
+                android:text="Drinks Menu"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dessertTVm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/drinkTVm"
+                android:layout_below="@+id/drinksIM"
+                android:text="Dessert Menu"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+</RelativeLayout>

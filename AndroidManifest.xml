@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.googlemapsemenara"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <permission
+        android:name="com.example.googlemapsemenara.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.example.googlemapsemenara.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gradenicon"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="APIKeyHere" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapView"
+            android:label="@string/title_activity_map_view" >
+        </activity>
+        <activity
+            android:name=".LaunchScreen"
+            android:label="@string/title_activity_launch_screen" >
+        </activity>
+        <activity
+            android:name=".UserMainScreen"
+            android:label="@string/title_activity_user_main_screen" >
+        </activity>
+        <activity
+            android:name=".MapV"
+            android:label="@string/title_activity_map_v" >
+        </activity>
+        <activity
+            android:name=".ContactUsScreen"
+            android:label="@string/title_activity_contact_us_screen" >
+        </activity>
+        <activity
+            android:name=".ContactUS"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".ContactGarden"
+            android:label="@string/title_activity_contact_garden" >
+        </activity>
+        <activity
+            android:name=".MyFragment"
+            android:label="@string/title_activity_my_fragment" >
+        </activity>
+        <activity
+            android:name=".MyRightFrag"
+            android:label="@string/title_activity_my_right_frag" >
+        </activity>
+        <activity
+            android:name=".HomeFragment"
+            android:label="@string/title_activity_home_fragment" >
+        </activity>
+        <activity
+            android:name=".MainActivityFrag"
+            android:label="@string/title_activity_main_activity_frag" >
+        </activity>
+        <activity
+            android:name=".User_Screen"
+            android:label="@string/title_activity_user__screen" >
+        </activity>
+        <activity
+            android:name=".UserMScreen"
+            android:label="@string/title_activity_user_mscreen" >
+        </activity>
+        <activity
+            android:name=".MenueActivity"
+            android:label="@string/title_activity_menue" >
+        </activity>
+        <activity
+            android:name=".FirstCourseMenu"
+            android:label="@string/title_activity_first_course_menu" >
+        </activity>
+        <activity
+            android:name=".ReservationV"
+            android:label="@string/title_activity_reservation_v" >
+        </activity>
+
+        <intent-filter>
+
+            <!-- Change this to be db- followed by your app key -->
+            <data android:scheme="72qy3mekhel2kev" />
+
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".MainCourseMenueN"
+            android:label="@string/title_activity_main_course_menue_n" >
+        </activity>
+        <activity
+            android:name=".DessertCourseMenueN"
+            android:label="@string/title_activity_dessert_course_menue_n" >
+        </activity>
+        <activity
+            android:name=".DrinksCourseMenueN"
+            android:label="@string/title_activity_drinks_course_menue_n" >
+        </activity>
+        <activity
+            android:name=".MyMapView"
+            android:label="@string/title_activity_my_map_view" >
+        </activity>
+        <activity
+            android:name=".MapLocation"
+            android:label="@string/title_activity_map_location" >
+        </activity>
+    </application>
+
+</manifest>

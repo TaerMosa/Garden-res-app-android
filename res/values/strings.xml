@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Garden App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map_view">MapView</string>
+    <string name="title_activity_launch_screen">LaunchScreen</string>
+    <string name="title_activity_user_main_screen">UserMainScreen</string>
+    <string name="title_activity_map_v">MapV</string>
+    <string name="title_activity_contact_us_screen">ContactUsScreen</string>
+    <string name="title_activity_contact_us">ContactUS</string>
+    <string name="title_activity_contact_garden">ContactGarden</string>
+    <string name="title_activity_my_fragment">MyFragment</string>
+    <string name="title_activity_my_right_frag">MyRightFrag</string>
+    <string name="title_activity_home_fragment">HomeFragment</string>
+    <string name="title_activity_main_activity_frag">MainActivityFrag</string>
+    <string name="title_section0">Home</string>
+    <string name="title_section1">Locate US</string>
+    <string name="title_section2">Contact US</string>
+    <string name="title_section3">Reservation</string>
+    <string name="title_section4">Full Menu</string>
+    <string name="Map_section1">Find Us</string>
+    <string name="Map_section2">My Location</string>
+    <string name="Map_section3">Navigation</string>
+    <string name="Map_section4">Route</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_user__screen">User_Screen</string>
+    <string name="title_activity_user_mscreen">UserMScreen</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="UploadImage">Upload</string>
+    <string name="UserName">Enter Your Name:</string>
+    <string name="SaveButton">Save</string>
+    <string name="Launch">Launch</string>
+    <string name="title_activity_map_garden">MapGarden</string>
+    <string name="FindUs">Find Us</string>
+    <string name="MyLocation">My Location</string>
+    <string name="navigation">Navigation</string>
+    <string name="title_activity_garden_map">GardenMap</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="Route">Route</string>
+    <string name="title_activity_a">AA</string>
+    <string name="title_activity_menue">MenueActivity</string>
+    <string name="title_activity_first_course_menu">first course menu</string>
+    <string name="title_activity_reservation_v">reservation v</string>
+     <string name="BackMain">Main Screen</string>
+      <string name="BackReserv">Reservation</string>
+       <string name="BackLocatUS">Locate US</string>
+        <string name="BackContact">Contact US</string>
+        <string name="BackMenu">Full Menu</string>
+    
+
+    <string-array name="smoke">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="title_activity_main_course_menue_n">MainCourseMenueN</string>
+    <string name="title_activity_dessert_course_menue_n">DessertCourseMenueN</string>
+    <string name="title_activity_drinks_course_menue_n">DrinksCourseMenueN</string>
+    <string name="title_activity_map_location">MapLocation</string>
+    <string name="title_activity_my_map_view">MyMapView</string>
+
+</resources>
